@@ -24,9 +24,9 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-        <Button Content="Button" Name="kaestchen_1_1" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_1_1_Click"/>
-        <Button Content="Button" Name="kaestchen_2_1" Grid.Column="2" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_2_1_Click"/>
-        <Button Content="Button" Name="kaestchen_3_1" Grid.Column="3" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_3_1_Click"/>
+        <Button Content="Button" Name="kaestchen_1_1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_1_1_Click"/>
+        <Button Content="Button" Name="kaestchen_2_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_2_1_Click"/>
+        <Button Content="Button" Name="kaestchen_3_1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_3_1_Click"/>
 
         <Button Content="Button" Name="Kaestchen_1_2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_1_2_Click"/>
         <Button Content="Button" Name="Kaestchen_2_2" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_2_2_Click"/>
