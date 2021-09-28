@@ -24,50 +24,6 @@ namespace TicTacToe
         {
             InitializeComponent();
         }
-
-        private void Kaestchen_1_1_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_2_1_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_3_1_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_1_2_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_2_2_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_3_2_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_1_3_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_2_3_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Kaestchen_3_3_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+                
     }
 }
