@@ -7,36 +7,35 @@
         mc:Ignorable="d"
         Title="TicTacToe" Height="500" Width="500">
 
-    <Grid x:Name="Spielfeld" Background="Gainsboro" ShowGridLines="True">
+    <Grid x:Name="Spielfeld" Background="Gainsboro" ShowGridLines="True">        <!-- Spielfeld erstellen -->
 
-
+        <!-- Alle 9 Kästchen erstellen -->
+        
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*" x:Name="Spalte_0"/>
+            <ColumnDefinition Width="*" x:Name="Spalte_1"/>
+            <ColumnDefinition Width="*" x:Name="Spalte_2"/>
         </Grid.ColumnDefinitions>
+
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" x:Name="Zeile_0"/>
+            <RowDefinition Height="*" x:Name="Zeile_1"/>
+            <RowDefinition Height="*" x:Name="Zeile_2"/>
         </Grid.RowDefinitions>
-        <Button Content="Button" Name="kaestchen_1_1" Grid.Column="1" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_1_1_Click"/>
-        <Button Content="Button" Name="kaestchen_2_1" Grid.Column="2" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_2_1_Click"/>
-        <Button Content="Button" Name="kaestchen_3_1" Grid.Column="3" HorizontalAlignment="Center"  Grid.Row="1" VerticalAlignment="Center" Height="161" Width="167" Click="kaestchen_3_1_Click"/>
 
-        <Button Content="Button" Name="Kaestchen_1_2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_1_2_Click"/>
-        <Button Content="Button" Name="Kaestchen_2_2" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_2_2_Click"/>
-        <Button Content="Button" Name="Kaestchen_3_2" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_3_2_Click"/>
+        <Button x:Name="Kasten_0_0" Grid.Column="0" Grid.Row="0" Content="X"/>
+        <Button x:Name="Kasten_1_0" Grid.Column="1" Grid.Row="0" Content="O"/>
+        <Button x:Name="Kasten_2_0" Grid.Column="2" Grid.Row="0"/>
 
-        <Button Content="Button" Name="Kaestchen_1_3" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_1_3_Click"/>
-        <Button Content="Button" Name="Kaestchen_2_3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_2_3_Click"/>
-        <Button Content="Button" Name="Kaestchen_3_3" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" Height="161" Width="167" Click="Kaestchen_3_3_Click"/>
+        <Button x:Name="Kasten_0_1" Grid.Column="0" Grid.Row="1"/>
+        <Button x:Name="Kasten_1_1" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="Kasten_2_1" Grid.Column="2" Grid.Row="1"/>
+
+        <Button x:Name="Kasten_0_2" Grid.Column="0" Grid.Row="2"/>
+        <Button x:Name="Kasten_1_2" Grid.Column="1" Grid.Row="2"/>
+        <Button x:Name="Kasten_2_2" Grid.Column="2" Grid.Row="2"/>
+
     </Grid>
-
 
 
 </Window>
