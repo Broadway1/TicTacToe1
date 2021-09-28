@@ -25,17 +25,17 @@ namespace TicTacToe
             InitializeComponent();
         }
 
-        private void kaestchen_1_1_Click(object sender, RoutedEventArgs e)
+        private void Kaestchen_1_1_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void kaestchen_2_1_Click(object sender, RoutedEventArgs e)
+        private void Kaestchen_2_1_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
-        private void kaestchen_3_1_Click(object sender, RoutedEventArgs e)
+        private void Kaestchen_3_1_Click(object sender, RoutedEventArgs e)
         {
 
         }
