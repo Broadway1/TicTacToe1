@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:TicTacToe"
         mc:Ignorable="d"
         Title="TicTacToe" Height="500" Width="500">
-    <Window.Resources>
+    
+    <Window.Resources>      <!-- Farbe für alle Button anlegen -->
         <Style x:Key="myBtnStyle">
-            <Setter Property="Control.Background" Value="#00A8C6"/>
-            <Setter Property="Control.Foreground" Value="#F9F2E7"/>
+            <Setter Property="Control.Background" Value="#00A8C6"/>     <!-- Hintergrundfarbe Türkis -->
+            <Setter Property="Control.Foreground" Value="#F9F2E7"/>     <!-- Vordergrundfarbe Beige -->
             <Setter Property="Control.FontSize" Value="72"/>
         </Style>
     </Window.Resources>
