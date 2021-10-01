@@ -27,7 +27,9 @@ namespace TicTacToe
 
         private void Kasten_0_0_Click(object sender, RoutedEventArgs e)
         {
-           
+            var bisherigerVordergrund = Kaestchen_0_0.Foreground;
+            Kaestchen_0_0.Foreground = Kaestchen_0_0.Background;
+            Kaestchen_0_0.Background = bisherigerVordergrund;
         }
 
     }
