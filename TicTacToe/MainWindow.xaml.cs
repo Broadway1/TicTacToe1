@@ -25,12 +25,67 @@ namespace TicTacToe
             InitializeComponent();
         }
 
-        private void Kaestchen_0_0_Click(object sender, RoutedEventArgs e)
+        private void KaestchenClick(object sender, RoutedEventArgs e)
         {
             var bisherigerVordergrund = kaestchen_0_0.Foreground;
             kaestchen_0_0.Foreground = kaestchen_0_0.Background;
             kaestchen_0_0.Background = bisherigerVordergrund;
         }
 
+        private void Kaestchen_1_0_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_1_0.Foreground;
+            kaestchen_1_0.Foreground = kaestchen_1_0.Background;
+            kaestchen_1_0.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_2_0_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_2_0.Foreground;
+            kaestchen_2_0.Foreground = kaestchen_2_0.Background;
+            kaestchen_2_0.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_0_1_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_0_1.Foreground;
+            kaestchen_0_1.Foreground = kaestchen_0_1.Background;
+            kaestchen_0_1.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_1_1_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_1_1.Foreground;
+            kaestchen_1_1.Foreground = kaestchen_1_1.Background;
+            kaestchen_1_1.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_2_1_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_2_1.Foreground;
+            kaestchen_2_1.Foreground = kaestchen_2_1.Background;
+            kaestchen_2_1.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_0_2_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_0_2.Foreground;
+            kaestchen_0_2.Foreground = kaestchen_0_2.Background;
+            kaestchen_0_2.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_1_2_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_1_2.Foreground;
+            kaestchen_1_2.Foreground = kaestchen_1_2.Background;
+            kaestchen_1_2.Background = bisherigerVordergrund;
+        }
+
+        private void Kaestchen_2_2_Click(object sender, RoutedEventArgs e)
+        {
+            var bisherigerVordergrund = kaestchen_2_2.Foreground;
+            kaestchen_2_2.Foreground = kaestchen_2_2.Background;
+            kaestchen_2_2.Background = bisherigerVordergrund;
+        }
     }
 }
